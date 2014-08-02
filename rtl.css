@@ -772,6 +772,14 @@ blocklayered
   margin-right: 7px;  
 }
 
+#layered_price_range:before {
+    content: "\200E‎";
+}
+
+a[rel~="layered_price_slider"]:before {
+	content: "\200E‎";
+}
+
 .layered_price_range_unit {
   margin-left: 0px ;
   margin-right: 7px;
