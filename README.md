@@ -1,6 +1,16 @@
-prestashop-default-bootstrap-rtl
-================================
+About Prestashop-default-bootstrap-rtl
+--------
 
-A right-to-left stylesheet for the default prestashop 1.6 theme.
+This is a right-to-left stylesheet (rtl.css) & jquery uniform sprites image (sprite-rtl.png) for the default Prestashop 1.6 theme.
 
-Tested on Prestashop 1.6.0.8
+
+About this repository
+--------
+
+This repository contains the latest version of Prestashop-default-bootstrap-rtl, tested on Prestashop 1.6.0.9
+
+
+Installation
+--------
+
+Simply decompress the files into your default-bootstrap theme folder and you are good to go.
