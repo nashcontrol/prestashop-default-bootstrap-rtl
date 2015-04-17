@@ -7,7 +7,7 @@ This is a right-to-left stylesheet (rtl.css) & jquery uniform sprites image (spr
 About this repository
 --------
 
-This repository contains the latest version of Prestashop-default-bootstrap-rtl, tested on Prestashop 1.6.0.9
+This repository contains the latest version of Prestashop-default-bootstrap-rtl, tested on Prestashop 1.6.0.1
 
 
 Installation
