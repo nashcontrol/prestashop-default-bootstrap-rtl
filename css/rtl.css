@@ -1094,33 +1094,28 @@ padding-right: 5px;   }
 
 superfish
 ***************************************/
-
 /*** ESSENTIAL STYLES ***/
+.sf-contener {
+  float: right; }
+
 .sf-menu > li {
   float: right;
   border-left:1px solid #d6d4d4;
   border-right:none;
-  margin-bottom: -3px; 
- }
+  margin-bottom: -3px; }
 
- @media (max-width: 767px) {
+  @media (max-width: 767px) {
     .sf-menu > li {
-
+	  float: none;
       border-left: none; }
-      .sf-menu > li span {
-        
+      .sf-menu > li span {  
         right: auto;
-		left: 6px;
-        top: 20px;
-        }
-        .sf-menu > li span:after {
-          font-family: "FontAwesome";
-          content: "\f067";
-          font-size: 26px; }
-        .sf-menu > li span.active:after {
-          content: "\f068"; } 
-}
-		  
+		left: 6px; } }
+
+.sf-menu li ul {
+  right: 0; }
+ 
+	 
 .sf-menu li:hover ul,
 .sf-menu li.sfHover ul {right:0;left:auto;}
  
@@ -1152,7 +1147,7 @@ content: "\f104";
     .sf-menu > li > ul > li.first-in-line-xs {
       clear: right; } }
  
- 
+
  .sf-menu > li > ul > li#category-thumbnail {
   padding-bottom: 0; 
  }
@@ -1162,6 +1157,7 @@ content: "\f104";
     padding-left: 0px;
 	padding-right: 10px;
  }
+  
     @media (max-width: 479px) {
       .sf-menu > li > ul > li#category-thumbnail > div {
         width: 100%;
@@ -2434,7 +2430,8 @@ blocksearch
 
 #search_block_top #search_query_top {
     margin-right: 0;
-	margin-left: 1px;}
+	margin-left: 1px;
+	padding: 13px 13px 13px 60px;}
 
 /******************************
 cmsinfo
@@ -2672,3 +2669,6 @@ table#product_comparison .remove {
     clear: both; }
   #product_comparison .comparison_feature .product-name {
     float: right; } }
+
+
+/*# sourceMappingURL=rtl.css.map */
