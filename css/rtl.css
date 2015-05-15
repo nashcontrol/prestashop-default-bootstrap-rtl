@@ -809,15 +809,12 @@ breadcrumb
        }
 
     .breadcrumb a:after {
-      left: -10px;
-      right: auto;
-
-border-right: 0px !important;
-
--webkit-transform: rotate(225deg);
--ms-transform: rotate(225deg);
-transform: rotate(225deg);
-      }
+		left: -10px;
+		right: auto;
+		border-right: 1px solid #d6d4d4;
+		-webkit-transform: rotate(225deg);
+		-ms-transform: rotate(225deg);
+		transform: rotate(225deg); }
 	  
     .breadcrumb a:before {
       right: -10px;
@@ -2124,8 +2121,10 @@ p.payment_module {
       background: url(../img/cheque.png) 480px 12px no-repeat #fbfbfb; }
     p.payment_module a.cash {
       background: url(../img/cash.png) 480px 12px no-repeat #fbfbfb; }
+	p.payment_module a.payphone {
+      background: url(../img/payphone.png) 480px 12px no-repeat #fbfbfb; }
 	  
-    p.payment_module a.cheque:after, p.payment_module a.bankwire:after, p.payment_module a.cash:after {
+    p.payment_module a.cheque:after, p.payment_module a.bankwire:after, p.payment_module a.cash:after, p.payment_module a.payphone:after {
       content: "\f053";
 	  right: auto;
       left: 15px;
