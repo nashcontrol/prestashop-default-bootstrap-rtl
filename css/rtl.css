@@ -1713,9 +1713,17 @@ margin-left: 6px;	}
         left: auto;
 		right: 0;}
       
+	  #usefull_link_block li#favoriteproducts_block_extra_add, #usefull_link_block li#favoriteproducts_block_extra_remove, #usefull_link_block li#favoriteproducts_block_extra_added, #usefull_link_block li#favoriteproducts_block_extra_removed {
+      padding-left: 0px;
+	  padding-right: 30px;}
+	  
       #usefull_link_block li#left_share_fb a {
         padding-right: 18px; 
         padding-left: 0px; }
+		
+	 #usefull_link_block li#favoriteproducts_block_extra_remove:before, #usefull_link_block li#favoriteproducts_block_extra_add:before, #usefull_link_block li#favoriteproducts_block_extra_removed:before, #usefull_link_block li#favoriteproducts_block_extra_added:before {
+	 left: auto;
+		right: 0;}
     
 /* pb-left-column ****************************************************************************** */
 .pb-center-column {
@@ -2747,20 +2755,19 @@ table#product_comparison .remove {
   #listpage_content div.tree_top a:before {
     content: "\f015"; }
 
-ul.tree {
+.categTree ul.tree {
   padding-left: 0; 
   padding-right: 24px;}
-  ul.tree li {
+  .categTree ul.tree li {
     margin: 0 21px 0 0;
     padding: 5px 33px 0 0px;
 	border-right: 1px solid #d6d4d4;
 	border-left: none;
     background: url(../img/sitemap-horizontal.png) no-repeat right 15px transparent; }
-  ul.tree > li {
+  .categTree ul.tree > li {
     margin: 0 11px 0 0px; }
-  ul.tree li.last {
+  .categTree ul.tree li.last {
     background: url(../img/sitemap-last-rtl.png) no-repeat right -4px transparent; 
-	
 	}
   
 /*# sourceMappingURL=rtl.css.map */
