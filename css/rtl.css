@@ -2755,18 +2755,19 @@ table#product_comparison .remove {
   #listpage_content div.tree_top a:before {
     content: "\f015"; }
 
-.categTree ul.tree {
+.categTree ul.tree, .category_footer  ul.tree{
   padding-left: 0; 
   padding-right: 24px;}
-  .categTree ul.tree li {
+  .categTree ul.tree li, .category_footer  ul.tree li {
     margin: 0 21px 0 0;
     padding: 5px 33px 0 0px;
 	border-right: 1px solid #d6d4d4;
 	border-left: none;
     background: url(../img/sitemap-horizontal.png) no-repeat right 15px transparent; }
-  .categTree ul.tree > li {
+  .categTree ul.tree > li , .category_footer  ul.tree > li {
     margin: 0 11px 0 0px; }
-  .categTree ul.tree li.last {
+  .categTree ul.tree li.last, .category_footer ul.tree li.last{
+  border-right: none;
     background: url(../img/sitemap-last-rtl.png) no-repeat right -4px transparent; 
 	}
   
